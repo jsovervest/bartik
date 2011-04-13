@@ -87,6 +87,7 @@
 ?>
 <div id="page-wrapper"><div id="page">
 
+<div style="margin-left: 20px;">
   <!-- vertikale strepen op vaste plek: -->
   <div class="streep vertikaal" id="vs1" style="top: 0px;"></div>
   <div class="streep vertikaal" id="vs2" style="top: 60px;"></div>
@@ -101,14 +102,18 @@
   <div class="streep vertikaal" id="vs11" style="top: 1020px;"></div>
 
   <!-- horizontale strepen op vaste plek: -->
-  <div class="streep horizontaal" id="hs1" style="left: 10px; "></div>
-  <div class="streep horizontaal" id="hs2" style="left: 90px; "></div>
-  <div class="streep horizontaal" id="hs3" style="left: 170px;"></div>
-  <div class="streep horizontaal" id="hs4" style="left: 250px;"></div>
-  <div class="streep horizontaal" id="hs5" style="left: 330px;"></div>
-  <div class="streep horizontaal" id="hs6" style="left: 490px;"></div>
-  <div class="streep horizontaal" id="hs7" style="left: 650px;"></div>
-  <div class="streep horizontaal" id="hs8" style="left: 810px;"></div>
+  <div class="streep horizontaal" id="hs1" style="left: 2%; "></div>
+  <div class="streep horizontaal" id="hs2" style="left: 7.33%; "></div>
+  <div class="streep horizontaal" id="hs2" style="left: 12.66%; "></div>
+  <div class="streep horizontaal" id="hs3" style="left: 18%; "></div>
+  <div class="streep horizontaal" id="hs4" style="left: 23.33%;"></div>
+  <div class="streep horizontaal" id="hs5" style="left: 28.66%;"></div>
+  <div class="streep horizontaal" id="hs6" style="left: 34%;"></div>
+  <!-- Op afstandje nog een paar -->
+  <div class="streep horizontaal" id="hs7" style="left: 41.33%;"></div>
+  <div class="streep horizontaal" id="hs8" style="left: 46.66%;"></div>
+  <div class="streep horizontaal" id="hs9" style="left: 52%;"></div>
+</div>
 
   <div id="header" class="<?php print $secondary_menu ? 'with-secondary-menu': 'without-secondary-menu'; ?>"><div class="section clearfix">
 
