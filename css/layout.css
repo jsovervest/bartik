@@ -99,3 +99,23 @@ body,
   width: 940px;
   min-width: 920px;
 }
+
+/* De strepen */
+div.streep {
+  position: absolute;
+  background-color: white;
+  z-index: 1000;
+}
+
+div.vertikaal {
+  left: 19.25%;
+  height: 40px;
+  width: 4px;
+}
+
+div.horizontaal {
+  top: 96px;
+  height: 4px;
+  width: 40px;
+}
+

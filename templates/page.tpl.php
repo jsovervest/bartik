@@ -87,6 +87,29 @@
 ?>
 <div id="page-wrapper"><div id="page">
 
+  <!-- vertikale strepen op vaste plek: -->
+  <div class="streep vertikaal" id="vs1" style="top: 0px;"></div>
+  <div class="streep vertikaal" id="vs2" style="top: 60px;"></div>
+  <div class="streep vertikaal" id="vs3" style="top: 140px;"></div>
+  <div class="streep vertikaal" id="vs4" style="top: 220px;"></div>
+  <div class="streep vertikaal" id="vs5" style="top: 300px;"></div>
+  <div class="streep vertikaal" id="vs6" style="top: 380px;"></div>
+  <div class="streep vertikaal" id="vs7" style="top: 460px;"></div>
+  <div class="streep vertikaal" id="vs8" style="top: 540px;"></div>
+  <div class="streep vertikaal" id="vs9" style="top: 700px;"></div>
+  <div class="streep vertikaal" id="vs10" style="top: 860px;"></div>
+  <div class="streep vertikaal" id="vs11" style="top: 1020px;"></div>
+
+  <!-- horizontale strepen op vaste plek: -->
+  <div class="streep horizontaal" id="hs1" style="left: 10px; "></div>
+  <div class="streep horizontaal" id="hs2" style="left: 90px; "></div>
+  <div class="streep horizontaal" id="hs3" style="left: 170px;"></div>
+  <div class="streep horizontaal" id="hs4" style="left: 250px;"></div>
+  <div class="streep horizontaal" id="hs5" style="left: 330px;"></div>
+  <div class="streep horizontaal" id="hs6" style="left: 490px;"></div>
+  <div class="streep horizontaal" id="hs7" style="left: 650px;"></div>
+  <div class="streep horizontaal" id="hs8" style="left: 810px;"></div>
+
   <div id="header" class="<?php print $secondary_menu ? 'with-secondary-menu': 'without-secondary-menu'; ?>"><div class="section clearfix">
 
     <?php if ($logo): ?>
