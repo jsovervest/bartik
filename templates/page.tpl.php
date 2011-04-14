@@ -90,13 +90,14 @@
 <div style="margin-left: 20px;">
   <!-- vertikale strepen op vaste plek: -->
   <div class="streep vertikaal" id="vs1" style="top: 0px;"></div>
-  <div class="streep vertikaal" id="vs2" style="top: 60px;"></div>
-  <div class="streep vertikaal" id="vs3" style="top: 140px;"></div>
-  <div class="streep vertikaal" id="vs4" style="top: 220px;"></div>
-  <div class="streep vertikaal" id="vs5" style="top: 300px;"></div>
-  <div class="streep vertikaal" id="vs6" style="top: 380px;"></div>
-  <div class="streep vertikaal" id="vs7" style="top: 460px;"></div>
-  <div class="streep vertikaal" id="vs8" style="top: 540px;"></div>
+  <div class="streep vertikaal" id="vs2" style="top: 74px;"></div>
+  <div class="streep vertikaal" id="vs3" style="top: 148px;"></div>
+  <div class="streep vertikaal" id="vs4" style="top: 228px;"></div>
+  <div class="streep vertikaal" id="vs5" style="top: 308px;"></div>
+  <div class="streep vertikaal" id="vs6" style="top: 388px;"></div>
+  <div class="streep vertikaal" id="vs7" style="top: 468px;"></div>
+  <div class="streep vertikaal" id="vs8" style="top: 548px;"></div>
+  <!-- Op een afstandje nog een paar -->
   <div class="streep vertikaal" id="vs9" style="top: 700px;"></div>
   <div class="streep vertikaal" id="vs10" style="top: 860px;"></div>
   <div class="streep vertikaal" id="vs11" style="top: 1020px;"></div>
