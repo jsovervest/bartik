@@ -87,35 +87,6 @@
 ?>
 <div id="page-wrapper"><div id="page">
 
-<div style="margin-left: 20px;">
-  <!-- vertikale strepen op vaste plek: -->
-  <div class="streep vertikaal" id="vs1" style="top: 0px;"></div>
-  <div class="streep vertikaal" id="vs2" style="top: 74px;"></div>
-  <div class="streep vertikaal" id="vs3" style="top: 148px;"></div>
-  <div class="streep vertikaal" id="vs4" style="top: 228px;"></div>
-  <div class="streep vertikaal" id="vs5" style="top: 308px;"></div>
-  <div class="streep vertikaal" id="vs6" style="top: 388px;"></div>
-  <div class="streep vertikaal" id="vs7" style="top: 468px;"></div>
-  <div class="streep vertikaal" id="vs8" style="top: 548px;"></div>
-  <!-- Op een afstandje nog een paar -->
-  <div class="streep vertikaal" id="vs9" style="top: 700px;"></div>
-  <div class="streep vertikaal" id="vs10" style="top: 860px;"></div>
-  <div class="streep vertikaal" id="vs11" style="top: 1020px;"></div>
-
-  <!-- horizontale strepen op vaste plek: -->
-  <div class="streep horizontaal" id="hs1" style="left: 2%; "></div>
-  <div class="streep horizontaal" id="hs2" style="left: 7.33%; "></div>
-  <div class="streep horizontaal" id="hs2" style="left: 12.66%; "></div>
-  <div class="streep horizontaal" id="hs3" style="left: 18%; "></div>
-  <div class="streep horizontaal" id="hs4" style="left: 23.33%;"></div>
-  <div class="streep horizontaal" id="hs5" style="left: 28.66%;"></div>
-  <div class="streep horizontaal" id="hs6" style="left: 34%;"></div>
-  <!-- Op afstandje nog een paar -->
-  <div class="streep horizontaal" id="hs7" style="left: 41.33%;"></div>
-  <div class="streep horizontaal" id="hs8" style="left: 46.66%;"></div>
-  <div class="streep horizontaal" id="hs9" style="left: 52%;"></div>
-</div>
-
   <div id="header" class="<?php print $secondary_menu ? 'with-secondary-menu': 'without-secondary-menu'; ?>"><div class="section clearfix">
 
     <?php if ($logo): ?>
@@ -202,7 +173,36 @@
 
   <div id="main-wrapper" class="clearfix"><div id="main" class="clearfix">
 
-    <?php if (arg(0) == 'admin'): ?>
+ <div class="streep-houder">
+  <!-- vertikale strepen op vaste plek: -->
+  <div class="streep vertikaal" id="vs1" style="top: -126px;"></div>
+  <div class="streep vertikaal" id="vs2" style="top: -52px;"></div>
+  <div class="streep vertikaal" id="vs3" style="top: 22px;"></div>
+  <div class="streep vertikaal" id="vs4" style="top: 102px;"></div>
+  <div class="streep vertikaal" id="vs5" style="top: 182px;"></div>
+  <div class="streep vertikaal" id="vs6" style="top: 262px;"></div>
+  <div class="streep vertikaal" id="vs7" style="top: 342px;"></div>
+  <div class="streep vertikaal" id="vs8" style="top: 422px;"></div>
+  <!-- Op een afstandje nog een paar -->
+  <div class="streep vertikaal" id="vs9" style="top: 574px;"></div>
+  <div class="streep vertikaal" id="vs10" style="top: 734px;"></div>
+  <div class="streep vertikaal" id="vs11" style="top: 894px;"></div>
+
+  <!-- horizontale strepen op vaste plek: -->
+  <div class="streep horizontaal" id="hs1" style="left: 2%; "></div>
+  <div class="streep horizontaal" id="hs2" style="left: 7.33%; "></div>
+  <div class="streep horizontaal" id="hs2" style="left: 12.66%; "></div>
+  <div class="streep horizontaal" id="hs3" style="left: 18%; "></div>
+  <div class="streep horizontaal" id="hs4" style="left: 23.33%;"></div>
+  <div class="streep horizontaal" id="hs5" style="left: 28.66%;"></div>
+  <div class="streep horizontaal" id="hs6" style="left: 34%;"></div>
+  <!-- Op afstandje nog een paar -->
+  <div class="streep horizontaal" id="hs7" style="left: 41.33%;"></div>
+  <div class="streep horizontaal" id="hs8" style="left: 46.66%;"></div>
+  <div class="streep horizontaal" id="hs9" style="left: 52%;"></div>
+</div>
+
+   <?php if (arg(0) == 'admin'): ?>
     <?php if ($breadcrumb): ?>
       <div id="breadcrumb"><?php print $breadcrumb; ?></div>
     <?php endif; ?>
