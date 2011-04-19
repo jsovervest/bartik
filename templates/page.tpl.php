@@ -95,6 +95,7 @@
       </a>
     <?php endif; ?>
 
+    <div id="siteTitle"></div>
     <?php if ($site_name || $site_slogan): ?>
       <div id="name-and-slogan"<?php if ($hide_site_name && $hide_site_slogan) { print ' class="element-invisible"'; } ?>>
 
@@ -189,17 +190,17 @@
   <div class="streep vertikaal" id="vs11" style="top: 919px;"></div>
 
   <!-- horizontale strepen op vaste plek: -->
-  <div class="streep horizontaal" id="hs1" style="left: 2%; "></div>
-  <div class="streep horizontaal" id="hs2" style="left: 7.33%; "></div>
-  <div class="streep horizontaal" id="hs2" style="left: 12.66%; "></div>
-  <div class="streep horizontaal" id="hs3" style="left: 18%; "></div>
-  <div class="streep horizontaal" id="hs4" style="left: 23.33%;"></div>
-  <div class="streep horizontaal" id="hs5" style="left: 28.66%;"></div>
-  <div class="streep horizontaal" id="hs6" style="left: 34%;"></div>
+  <div class="streep horizontaal" id="hs1" style="left: 2%; "><!-- --></div>
+  <div class="streep horizontaal" id="hs2" style="left: 7.33%; "><!-- --></div>
+  <div class="streep horizontaal" id="hs2" style="left: 12.66%; "><!-- --></div>
+  <div class="streep horizontaal" id="hs3" style="left: 18%; "><!-- --></div>
+  <div class="streep horizontaal" id="hs4" style="left: 23.33%;"><!-- --></div>
+  <div class="streep horizontaal" id="hs5" style="left: 28.66%;"><!-- --></div>
+  <div class="streep horizontaal" id="hs6" style="left: 34%;"><!-- --></div>
   <!-- Op afstandje nog een paar -->
-  <div class="streep horizontaal" id="hs7" style="left: 41.33%;"></div>
-  <div class="streep horizontaal" id="hs8" style="left: 46.66%;"></div>
-  <div class="streep horizontaal" id="hs9" style="left: 52%;"></div>
+  <div class="streep horizontaal" id="hs7" style="left: 41.33%;"><!-- --></div>
+  <div class="streep horizontaal" id="hs8" style="left: 46.66%;"><!-- --></div>
+  <div class="streep horizontaal" id="hs9" style="left: 52%;"><!-- --></div>
 </div>
 
    <?php if (arg(0) == 'admin'): ?>
