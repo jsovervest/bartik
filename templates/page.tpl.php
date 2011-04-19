@@ -175,18 +175,18 @@
 
  <div class="streep-houder">
   <!-- vertikale strepen op vaste plek: -->
-  <div class="streep vertikaal" id="vs1" style="top: -126px;"></div>
-  <div class="streep vertikaal" id="vs2" style="top: -52px;"></div>
-  <div class="streep vertikaal" id="vs3" style="top: 22px;"></div>
-  <div class="streep vertikaal" id="vs4" style="top: 102px;"></div>
-  <div class="streep vertikaal" id="vs5" style="top: 182px;"></div>
-  <div class="streep vertikaal" id="vs6" style="top: 262px;"></div>
-  <div class="streep vertikaal" id="vs7" style="top: 342px;"></div>
-  <div class="streep vertikaal" id="vs8" style="top: 422px;"></div>
+  <div class="streep vertikaal" id="vs1" style="top: -101px;"></div>
+  <div class="streep vertikaal" id="vs2" style="top: -27px;"></div>
+  <div class="streep vertikaal" id="vs3" style="top: 47px;"></div>
+  <div class="streep vertikaal" id="vs4" style="top: 127px;"></div>
+  <div class="streep vertikaal" id="vs5" style="top: 207px;"></div>
+  <div class="streep vertikaal" id="vs6" style="top: 287px;"></div>
+  <div class="streep vertikaal" id="vs7" style="top: 367px;"></div>
+  <div class="streep vertikaal" id="vs8" style="top: 447px;"></div>
   <!-- Op een afstandje nog een paar -->
-  <div class="streep vertikaal" id="vs9" style="top: 574px;"></div>
-  <div class="streep vertikaal" id="vs10" style="top: 734px;"></div>
-  <div class="streep vertikaal" id="vs11" style="top: 894px;"></div>
+  <div class="streep vertikaal" id="vs9" style="top: 599px;"></div>
+  <div class="streep vertikaal" id="vs10" style="top: 759px;"></div>
+  <div class="streep vertikaal" id="vs11" style="top: 919px;"></div>
 
   <!-- horizontale strepen op vaste plek: -->
   <div class="streep horizontaal" id="hs1" style="left: 2%; "></div>
